@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.page{
+    background-color: darkgray;
+}
+.Header{
+    width: 1200px;
+    margin: auto;
+    background-color: white;
+    margin-top: 30px;
+    height: 80px;
+}
+.nameHeader{
+    width: 400px;
+    background-color: aquamarine;
+    height: 80px;
+}
+
+.nameContent{
+    font-family: Besley;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    white-space: nowrap;
+    
+}
+
+.Body{
+    width: 1200px;
+    margin: auto;
+    height: 543px;
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    flex-shrink: 20;
+    
+}
+.Contact{
+    float: right;
+    width: 20%;
+    font-family: Besley;
+    font-size: 20px;
+    padding-top: 30px;
+    
+    
+}
+.Contact:hover{
+    color: aquamarine;
+}
+.Portfolio{
+    float: right;
+    width: 20%;
+    font-family: Besley;
+    font-size: 20px;
+    padding-top: 30px;
+    
+}
+.Portfolio:hover{
+    color: aquamarine;   
+}
+.aboutMe{
+    float: right;
+    width: 20%;
+    font-family: Besley;
+    font-size: 20px;
+    padding-top: 30px;
+}
+.aboutMe:hover{
+    color: aquamarine;
+}
+.paragraphOne{
+    float: right;
+    width: 50%;
+    font-size: 30px;
+    font-family: Besley;
+    padding-top: 40px;
+    line-height: 60px;
+    
+}
+@font-face {
+  font-family: Besley;
+  src: url(Besley-Book.otf);
+}
+@viewport{
+ width: extend-to-zoom;
+ zoom: 1.0;   
+}
+@-ms-viewport{
+ width: extend-to-zoom;
+ zoom: 1.0;
+}
+
